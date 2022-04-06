@@ -1,0 +1,22 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406093733",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "transaction",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Transaction",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accountRef",
+      "otherEntityRelationshipName": "transaction",
+      "relationshipName": "accountRef",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
