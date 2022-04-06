@@ -1,0 +1,23 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406093731",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "party",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Party",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "partyId",
+      "otherEntityRelationshipName": "party",
+      "ownerSide": true,
+      "relationshipName": "partyId",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

@@ -1,0 +1,22 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406093730",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "beneficiary",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Beneficiary",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accountRef",
+      "otherEntityRelationshipName": "beneficiary",
+      "relationshipName": "accountRef",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

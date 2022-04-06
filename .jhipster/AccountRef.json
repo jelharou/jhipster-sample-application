@@ -1,0 +1,47 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406093728",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "account_ref",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AccountRef",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accountRA",
+      "otherEntityRelationshipName": "accountRef",
+      "ownerSide": false,
+      "relationshipName": "accountRA",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "beneficiary",
+      "otherEntityRelationshipName": "accountRef",
+      "relationshipName": "beneficiary",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "balance",
+      "otherEntityRelationshipName": "accountRef",
+      "relationshipName": "balance",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "transaction",
+      "otherEntityRelationshipName": "accountRef",
+      "relationshipName": "transaction",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "partyId",
+      "otherEntityRelationshipName": "accountRef",
+      "relationshipName": "partyId",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
