@@ -1,0 +1,28 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406090839",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "party_id",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "PartyId",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accountRef",
+      "otherEntityRelationshipName": "partyId",
+      "relationshipName": "accountRef",
+      "relationshipType": "many-to-one"
+    },
+    {
+      "otherEntityName": "address",
+      "otherEntityRelationshipName": "partyId",
+      "relationshipName": "address",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}

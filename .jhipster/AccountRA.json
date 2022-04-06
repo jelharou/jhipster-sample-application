@@ -1,0 +1,23 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406090834",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "account_ra",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "AccountRA",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accountRef",
+      "otherEntityRelationshipName": "accountRA",
+      "ownerSide": true,
+      "relationshipName": "ref",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}
