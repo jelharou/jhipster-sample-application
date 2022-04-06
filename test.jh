@@ -1,0 +1,21 @@
+entity Account
+entity AccountRef
+entity Balance
+entity Beneficiary
+entity Party
+entity PartyId
+entity Transaction
+entity Address
+
+relationship OneToOne {
+  Account{ref} to AccountRef
+  Party{id} to PartyId
+}
+
+relationship ManyToOne {
+  Beneficiary to AccountRef
+  Balance to AccountRef
+  Transaction to AccountRef
+  PartyId to AccountRef 
+  Address to PartyId
+}
