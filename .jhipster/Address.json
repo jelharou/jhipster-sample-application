@@ -1,0 +1,22 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406090841",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "address",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Address",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "partyId",
+      "otherEntityRelationshipName": "address",
+      "relationshipName": "partyId",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

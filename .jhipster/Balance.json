@@ -1,0 +1,22 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406090836",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "balance",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Balance",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "accountRef",
+      "otherEntityRelationshipName": "balance",
+      "relationshipName": "accountRef",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

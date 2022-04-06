@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.6.xsd">
+    <!--
+        Added the constraints for entity AccountRA.
+    -->
+    <changeSet id="20220406090834-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="ref_id"
+                                 baseTableName="account_ra"
+                                 constraintName="fk_account_ra__ref_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="account_ref"/>
+    </changeSet>
+</databaseChangeLog>
